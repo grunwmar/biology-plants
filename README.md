@@ -12,7 +12,7 @@ Here is link  to my (I hope updated) list/taxonomic tree
 
 ---
 ### Links
-* My instagram [metoraf91](https://www.instagram.com/metoraf91/) containgin plant photos.
+* My instagram [Martin Ze'ev Greenwood-Schreiber (**metoraf91**)](https://www.instagram.com/metoraf91/) containgin plant photos.
 * Stores where I like to buy plants
     * Carnivorous plants from Ing. Kamil Pásek [masozravky.com 🇨🇿](http://masozravky.com)
     * Stores [Kakteen.cz 🇨🇿](https://www.kakteen.cz/), [KytkaSem.cz 🇨🇿](https://www.kytkasem.cz/), [Gardners 🇨🇿](https://www.gardners-eshop.cz/) & [EkoAloe 🇨🇿](https://www.ekoaloe.cz/). They are not the cheapest, but it is handy to know they exist.
