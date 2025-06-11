@@ -4,152 +4,151 @@ embryophyta:
             polytrichopsida:
                 polytrichales:
                     polytrichaceae:
-                        - !Test Polytrichum commune: [moss, moist, cosmopolitan]
+                        - !plant Polytrichum commune: [moss, moist, cosmopolitan]
         marchantiophyta:
             marchantiopsida:
                 marchantiales:
                     ricciaceae:
-                        - Riccia fluitans: [liverwort, water, moist, japan]
+                        - !plant Riccia fluitans: [liverwort, water, moist, japan]
     tracheophyta:
         lycopodiophyta:
             lycopodiopsida:
                 lycopodiales:
                     lycopodiaceae:
-                        - Phlegmarius squarrosus: [clubmoss, epiphytic, moist, south-east-asia]
-                        - Phlegmarius carinatus: [clubmoss, epiphytic, moist, south-east-asia]
+                        - !plant Phlegmarius squarrosus: [clubmoss, epiphytic, moist, south-east-asia]
+                        - !plant Phlegmarius carinatus: [clubmoss, epiphytic, moist, south-east-asia]
                 selaginellales:
                     selaginellaceae:
-                        - Selaginella martensii: [spikemoss, mexico, easy]
-                        - Selaginella uncinata: [spikemoss, low-light, moist, iridescent, north-america]
-                        - Selaginella erythropus: [spikemoss, low-light, south-america]
-                        - Selaginella wildenowii: [spikemoss, low-light, moist, iridescent, south-east-asia]
+                        - !plant Selaginella martensii: [spikemoss, mexico, easy]
+                        - !plant Selaginella uncinata: [spikemoss, low-light, moist, iridescent, north-america]
+                        - !plant Selaginella erythropus: [spikemoss, low-light, south-america]
+                        - !plant Selaginella wildenowii: [spikemoss, low-light, moist, iridescent, south-east-asia]
         polypodiophyta:
             polypodiopsida:
                 salviniales:
                     salviniaceae:
-                        - Salvinia natans: [fern, water, floating, hight-light, fast-growing, cosmopolitan, easy]
-                        - Azolla filiculoides: [fern, water, floating, hight-light, fast-growing, cosmopolitan, easy]
+                        - !plant Salvinia natans: [fern, water, floating, hight-light, fast-growing, cosmopolitan, easy]
+                        - !plant Azolla filiculoides: [fern, water, floating, hight-light, fast-growing, cosmopolitan, easy]
                     marsileaceae:
-                        - Marsilea hirsuta: [fern, water, fast-growing]
-                        - Marsilea quadrifolia: [fern, water, fast-growing, cosmopolitan, easy]
+                        - !plant Marsilea hirsuta: [fern, water, fast-growing]
+                        - !plant Marsilea quadrifolia: [fern, water, fast-growing, cosmopolitan, easy]
                 polypodiales:
                     pteridaceae:
-                        - Doryopteris cordata: [fern]
-                        - Adiantum capillus-veneris: [fern]
-                        - Athyrium niponicum: [fern]
+                        - !plant Doryopteris cordata: [fern]
+                        - !plant Adiantum capillus-veneris: [fern]
+                        - !plant Athyrium niponicum: [fern]
                     polypodiaceae:
-                        - Polypodium commune: [fern, cosmopolitan]
-                        - Platycerium sp.: [fern, epiphytic, easy]
+                        - !plant Polypodium commune: [fern, cosmopolitan]
+                        - !plant Platycerium sp.: [fern, epiphytic, easy]
                     aspleniaceae:
-                        - Asplenium nidum: [fern, cosmopolitan]
-                        - Asplenium sp: [fern]
+                        - !plant Asplenium nidum: [fern, cosmopolitan]
+                        - !plant Asplenium sp: [fern]
         spermatophyta:
             cycadopsida:
                 cycadales:
                     cycadaceae:
-                        - Cycas revoluta: [cycad, faster-growing, japan]
+                        - !plant Cycas revoluta: [cycad, faster-growing, japan]
                     zamiaceae:
-                        - Zamia furfuracea: [cycad, faster-growing, mexico]
+                        - !plant Zamia furfuracea: [cycad, faster-growing, mexico]
                         - Encephalartos villosus: [cycad, slow-growing, south-africa]
                        #- Encephalartos lehmannii
                        #- Ceratozamia hildae
                        #- Macrozamia stenomera
-                        - Dioon edule: [cycad, slow-growing, mexico]
+                        - !plant Dioon edule: [cycad, slow-growing, mexico]
             pinopsida:
                 araucariales:
                     araucariaceae:
-                        - Araucaria heterophylla: [conifer, aromatic, faster-growing]
+                        - !plant Araucaria heterophylla: [conifer, aromatic, faster-growing]
             rosopsida:
                 lamiales:
                     gesneriaceae:
-                        - Streptocarpus saxorum: [flower, fast-growing, kenya]
-                        - Koehleria eriantha: [flower, fast-growing, south-america, central-america]
-                        - Koehleria sp: [flower]
-                        - Episcia cupreata: [flower, south-america, central-america]
+                        - !plant Streptocarpus saxorum: [flower, fast-growing, kenya]
+                        - !plant Koehleria eriantha: [flower, fast-growing, south-america, central-america]
+                        - !plant Koehleria sp: [flower]
+                        - !plant Episcia cupreata: [flower, south-america, central-america]
                     lentibulariaceae:
-                        - Utricularia calycifida: [carnivorous, moist, terrestrial, flower, fast-growing, south-america]
-                        - Utricularia livida: [carnivorous, moist, flower, mexico]
-                        - Uricularia gibba: [carnivorous, water, fast-growing, cosmopolitan]
-                        - Utricularia praelonga: [carnivorous, moist]
-                        - Utricularia vulgaris: [carnivorous, water, cosmopolitan]
-                        - Pinguicula hemiepiphytica: [carnivorous, moist, flower]
+                        - !plant Utricularia calycifida: [carnivorous, moist, terrestrial, flower, fast-growing, south-america]
+                        - !plant Utricularia livida: [carnivorous, moist, flower, mexico]
+                        - !plant Uricularia gibba: [carnivorous, water, fast-growing, cosmopolitan]
+                        - !plant Utricularia praelonga: [carnivorous, moist]
+                        - !plant Utricularia vulgaris: [carnivorous, water, cosmopolitan]
+                        - !plant Pinguicula hemiepiphytica: [carnivorous, moist, flower]
                     lamiaceae:
-                        - Plectranthus neochilus: []
-                        - Plectranthus sp: []
+                        - !plant Plectranthus neochilus: []
+                        - !plant Plectranthus sp: []
                     acanthaceae:
-                        - Hypoestes phyllostachya: [colored-leaves, south-asia]
+                        - !plant Hypoestes phyllostachya: [colored-leaves, south-asia]
                 malpighiales:
                     euphorbiaceae:
-                        - Euphorbia milli: [succulent, flower, south-africa]
-                        - Euphorbia aeruginosa: [succulent, south-africa]
-                        - Euphorbia enopla: [succulent, south-africa]
-                        - Euphorbia platyclada: [succulent]
-                        - Euphorbia pulcherrima: [succulent, flower]
-                        - Jatropha podagrica: [succulent, flower, mexico]
+                        - !plant Euphorbia milli: [succulent, flower, south-africa]
+                        - !plant Euphorbia aeruginosa: [succulent, south-africa]
+                        - !plant Euphorbia enopla: [succulent, south-africa]
+                        - !plant Euphorbia platyclada: [succulent]
+                        - !plant Euphorbia pulcherrima: [succulent, flower]
+                        - !plant Jatropha podagrica: [succulent, flower, mexico]
                 ericales:
                     saraceniaceae:
-                        - Sarracenia leucophylla: [carnivorous, wet, north-america]
+                        - !plant Sarracenia leucophylla: [carnivorous, wet, north-america]
                 caryophyllales:
                     aizoaceae:
-                        - Lithops sp: [succulent, south-africa]
+                        - !plant Lithops sp: [succulent, south-africa]
                 gentianales:
                     apocynaceae:
-                        - Stapelia grandiflora: [succulent, south-africa, easy]
-                        - Huernia confusa: [succulent, south-africa]
-                        - Huernia thuretii: [succulent, south-africa]
-                        - Huernia volkartii: [succulent, south-africa]
-                        - Hoodia gordonii: [succulent, south-africa]
-                        - Hoya carnosa: [succulent, vine, east-asia, easy]
-                        - Hoya sp: [succulent, vine, east-asia, easy]
+                        - !plant Stapelia grandiflora: [succulent, south-africa, easy]
+                        - !plant Huernia confusa: [succulent, south-africa]
+                        - !plant Huernia thuretii: [succulent, south-africa]
+                        - !plant Huernia volkartii: [succulent, south-africa]
+                        - !plant Hoodia gordonii: [succulent, south-africa]
+                        - !plant Hoya carnosa: [succulent, vine, east-asia, easy]
+                        - !plant Hoya sp: [succulent, vine, east-asia, easy]
                 saxifragales:
                     crassulaceae:
-                        - Crassula ovata: [succulent, south-africa, easy]
-                        - Echeveria pulvinata: [succulent,central-america]
-                        - Echeveria sp: [succulent, central-america]
-                        - Pachyphytum oviferum: [succulent, mexico]
-                        - Cotyledon orbiculata: [succulent, south africa]
-                        - Graptopetalum pachyphyllum: [succulent, mexico]
-                        - Sedum stahlii: [succulent]
-                        - Sedum sp: [succulent]
-                        - Kalanchoe laetivirens: [succulent, hybrid]
-                        - Kalanchoe daigremontiana: [succulent, mexico, easy]
-                        - Kalanchoe manginii: [succulent, madagascar]
+                        - !plant Crassula ovata: [succulent, south-africa, easy]
+                        - !plant Echeveria pulvinata: [succulent,central-america]
+                        - !plant Echeveria sp: [succulent, central-america]
+                        - !plant Pachyphytum oviferum: [succulent, mexico]
+                        - !plant Cotyledon orbiculata: [succulent, south africa]
+                        - !plant Graptopetalum pachyphyllum: [succulent, mexico]
+                        - !plant Sedum stahlii: [succulent]
+                        - !plant Sedum sp: [succulent]
+                        - !plant Kalanchoe laetivirens: [succulent, hybrid]
+                        - !plant Kalanchoe daigremontiana: [succulent, mexico, easy]
+                        - !plant Kalanchoe manginii: [succulent, madagascar]
             liliopsida:
                 arecales:
                     arecaceae:
-                        - Phoenix dactylifera: [palm, palm-like, medium-growing, north-affrica, middle-east]
+                        - !plant Phoenix dactylifera: [palm, palm-like, medium-growing, north-affrica, middle-east]
                 commelinales:
                     commelinaceae:
-                        - Commelina africana: [vine, succulent, fast-growing, south-africa, easy]
-                        - Cyanotis ciliata: [vine, succulent, fast-growing, easy]
-                        - Tradescantia pallida: [vine, succulent, fast-growing, easy]
-                        - Tradescantia flumensis: [vine, succulent, fast-growing, south-america, easy]
-                        - Tradescantia sp: [vine, succulent, fast-growing, easy]
+                        - !plant Commelina africana: [vine, succulent, fast-growing, south-africa, easy]
+                        - !plant Cyanotis ciliata: [vine, succulent, fast-growing, easy]
+                        - !plant Tradescantia pallida: [vine, succulent, fast-growing, easy]
+                        - !plant Tradescantia flumensis: [vine, succulent, fast-growing, south-america, easy]
+                        - !plant Tradescantia sp: [vine, succulent, fast-growing, easy]
                 poales:
                     cyperaceae:
-                        - Cyperus alternifolius: [grass, wet, easy]
+                        - !plant Cyperus alternifolius: [grass, wet, easy]
                 zingiberales:
                     zingiberaceae:
-                        - Zingiber officinale: [fast-growing]
+                        - !plant Zingiber officinale: [fast-growing]
                 asparagales:
                     asparagaceae:
-                        - Ledebouria socialis: [succulent, easy]
+                        - !plant Ledebouria socialis: [succulent, easy]
                     orchidaceae:
-                        - Ludisia discolor: [orchid, succulent]
+                        - !plant Ludisia discolor: [orchid, succulent]
                 alismatales:
                     araceae:
-                        - Lemnum sp: [aroid, water, floating, tiny, easy]
-                        - Alocasia cuprea: [aroid, fast-growing]
-                        - Alocasia baginda: [aroid, fast-growing]
-                        - Alocasia sulawesi: [aroid, fast-growing]
-                        - Epipremnum aureum: [aroid, vine, fast-growing, easy]
-                        - Philodendron sp: [aroid, vine, easy]
-                        - Philodendron sp: [aroid, vine, easy]
-                        - Dieffenbachia picta: [aroid, fast-growing, easy]
-                        - Scindapsus pictus: [aroid, vine]
-                        - Aglaonema sp: [aroid, colored-leaves, easy]
-                        - Spatiphyllum sp: [aroid, flower, easy]
-                        - Rhaphidophora tetrasperma: [aroid, vine, fast-growing, easy]
-                        - Monstera deliciosa: [aroid, vine, fast-growing, easy]
-                        - Zamioculcas zamiifolia: [aroid, succulent, easy]
-    
+                        - !plant Lemnum sp: [aroid, water, floating, tiny, easy]
+                        - !plant Alocasia cuprea: [aroid, fast-growing]
+                        - !plant Alocasia baginda: [aroid, fast-growing]
+                        - !plant Alocasia sulawesi: [aroid, fast-growing]
+                        - !plant Epipremnum aureum: [aroid, vine, fast-growing, easy]
+                        - !plant Philodendron sp: [aroid, vine, easy]
+                        - !plant Philodendron sp: [aroid, vine, easy]
+                        - !plant Dieffenbachia picta: [aroid, fast-growing, easy]
+                        - !plant Scindapsus pictus: [aroid, vine]
+                        - !plant Aglaonema sp: [aroid, colored-leaves, easy]
+                        - !plant Spatiphyllum sp: [aroid, flower, easy]
+                        - !plant Rhaphidophora tetrasperma: [aroid, vine, fast-growing, easy]
+                        - !plant Monstera deliciosa: [aroid, vine, fast-growing, easy]
+                        - !plant Zamioculcas zamiifolia: [aroid, succulent, easy]
