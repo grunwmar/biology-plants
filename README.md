@@ -4,11 +4,11 @@ Hello, I intend this `github` repository as blog to share my experience with pla
 Recipes, articles, ideas, photo publication.
 
 Here is link  to my (I hope updated) list/taxonomic tree 
-[[github-interface](https://github.com/grunwmar/biology-plants/blob/main/plants.yaml)|[raw](https://raw.githubusercontent.com/grunwmar/biology-plants/refs/heads/main/plants.yaml)] of plants I possess.
+[[github-interface](https://github.com/grunwmar/biology-plants/blob/main/data/plants.yaml)|[raw](https://raw.githubusercontent.com/grunwmar/biology-plants/refs/heads/main/data/plants.yaml)] of plants I possess.
 
 
 > **This should be list of articles I will write in the furure, maybe...**
-> * [x] [Plant list / taxonomic tree](https://github.com/grunwmar/biology-plants/blob/main/plants.yaml)  
+> * [x] [Plant list / taxonomic tree](https://github.com/grunwmar/biology-plants/blob/main/data/plants.yaml)  
 
 ---
 ### Links
