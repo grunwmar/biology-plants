@@ -1,14 +1,10 @@
----
-Title: Classification and list of plants
-Description: Plants I actually have at this time. Commented lines mean, that this is planned in near future.
----
 embryophyta:
     setaphyta:
         bryophyta:
             polytrichopsida:
                 polytrichales:
                     polytrichaceae:
-                        - Polytrichum commune: [moss, moist, cosmopolitan]
+                        - !Test Polytrichum commune: [moss, moist, cosmopolitan]
         marchantiophyta:
             marchantiopsida:
                 marchantiales:
