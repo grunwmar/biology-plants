@@ -8,7 +8,7 @@ Here is link  to my (I hope updated) list/taxonomic tree
 
 
 > **This should be list of articles I will write in the furure, maybe...**
-> *[x] [Plant list / taxonomic tree](https://github.com/grunwmar/biology-plants/blob/main/plants.yaml)  
+> * [x] [Plant list / taxonomic tree](https://github.com/grunwmar/biology-plants/blob/main/plants.yaml)  
 
 ---
 ### Links
@@ -21,3 +21,9 @@ Here is link  to my (I hope updated) list/taxonomic tree
     * E-bay seller of many plants I bought from him and I very was satisfied [painit 🇭🇺](https://www.ebay.com/usr/painit)
 * Untested but in test list
   * [Rare palm seeds (?🇩🇪)](https://www.rarepalmseeds.com/)
+
+## Gallery
+Leaves of *Selaginella wildenowii*
+![image](https://raw.githubusercontent.com/grunwmar/biology-plants/refs/heads/main/data/pics/selaginellawildenowii.webp)
+Flowers of *Utricularia livida*
+![image](https://raw.githubusercontent.com/grunwmar/biology-plants/refs/heads/main/data/pics/utricularualivida.webp)
