@@ -14,7 +14,7 @@ def get_loader():
 
 
 def load(filename):
-    dct = yaml.load(open("plants.yaml", "rb"), Loader=get_loader())
+    dct = yaml.load(open(filename, "rb"), Loader=get_loader())
     return dct
 
 
@@ -22,7 +22,6 @@ def parse(filename):
     dct = load(filename)
     lst = list()
     grp = dict()
-
     tml = [0]
 
     @dataclass
@@ -43,11 +42,13 @@ def parse(filename):
                 recursion(item)
 
         elif isinstance(iterable, dict):
+
             for key, item in iterable.items():
                 if key.startswith("!%plant::"):
                     name = key.replace("!%plant::", "")
                     spec = Species(name=name, tags=item)
                     lst.append(spec)
+
                     for tag in spec.tags:
 
                         if len(tag) > tml[0]:
@@ -60,27 +61,26 @@ def parse(filename):
 
                 else:
                     recursion(item)
-        else:
-            ...
 
         return iterable
 
-    r = recursion(dct)
+    recursion(dct)
     return grp, tml[0], len(lst)
 
 
-def print_by_tags(filename):
+def print_by_tags(filename, tags: list=None):
     grps, tml, count = parse(filename)
+
     for grp, items in grps.items():
-        ldif = tml - len(grp)
-        print(f">\033[1;4m {grp:<{tml}} \033[0m")
-        for item in items:
-            print(f"       + \033[92m{item}\033[0m")
-        print("")
+        if  tags is None or grp in tags:
+            print(f"[\033[1;34m{grp.upper():_<{tml}}\033[0m]")
+            for item in items:
+                print(f"       + \033[94m{item}\033[0m")
+            print("")
 
     print("\n total:", count)
 
 
 
 if __name__ == "__main__":
-    print_by_tags("plants.yaml")
+    print_by_tags("../data/plants.yaml")
