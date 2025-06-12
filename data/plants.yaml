@@ -48,12 +48,12 @@ embryophyta:
                 cycadales:
                     cycadaceae:
                         - !plant Cycas revoluta: [cycad, faster-growing, japan]
+                      # - !plant Cycad debaoensis: []
                     zamiaceae:
                         - !plant Zamia furfuracea: [cycad, faster-growing, mexico]
-                        - Encephalartos villosus: [cycad, slow-growing, south-africa]
-                       #- Encephalartos lehmannii
-                       #- Ceratozamia hildae
-                       #- Macrozamia stenomera
+                        - !plant Encephalartos villosus: [cycad, slow-growing, south-africa]
+                      # - !plant Ceratozamia hildae: []
+                      # - !plant Macrozamia stenomera: []
                         - !plant Dioon edule: [cycad, slow-growing, mexico]
             pinopsida:
                 araucariales:
