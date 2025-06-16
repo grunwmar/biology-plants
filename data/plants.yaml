@@ -78,6 +78,7 @@ embryophyta:
                         - !plant Plectranthus sp: []
                     acanthaceae:
                         - !plant Hypoestes phyllostachya: [colored-leaves, south-asia]
+                        - !plant Fitonia sp []
                 malpighiales:
                     euphorbiaceae:
                         - !plant Euphorbia milli: [succulent, flower, south-africa]
