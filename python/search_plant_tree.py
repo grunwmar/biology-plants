@@ -71,14 +71,18 @@ def parse(filename):
 def print_by_tags(filename, tags: list=None):
     grps, tml, count = parse(filename)
 
-    for grp, items in grps.items():
-        if  tags is None or grp in tags:
-            print(f"[\033[1;34m{grp.upper():_<{tml}}\033[0m]")
-            for item in items:
-                print(f"       + \033[94m{item}\033[0m")
-            print("")
+    string = "# Tags\n\n"
 
-    print("\n total:", count)
+    for grp, items in dict(sorted(grps.items())).items():
+        if  tags is None or grp in tags:
+            string += f" - **{grp.lower()}:** "
+            string += f"{", ".join([f"*{item}*" for item in items])}"
+            string += "\n\n"
+
+    string += f"\ntotal: {count}"
+
+    with open("./tags.md", "w") as f:
+        f.write(string)
 
 
 
