@@ -69,7 +69,7 @@ embryophyta:
                     lentibulariaceae:
                         - !plant Utricularia calycifida: [carnivorous, moist, terrestrial, flower, fast-growing, south-america]
                         - !plant Utricularia livida: [carnivorous, moist, flower, mexico]
-                        - !plant Uricularia gibba: [carnivorous, water, fast-growing, cosmopolitan]
+                        - !plant Utricularia gibba: [carnivorous, water, fast-growing, cosmopolitan]
                         - !plant Utricularia praelonga: [carnivorous, moist]
                         - !plant Utricularia vulgaris: [carnivorous, water, cosmopolitan]
                         - !plant Pinguicula hemiepiphytica: [carnivorous, moist, flower]
